@@ -1,6 +1,6 @@
 <?php
 
-class Main_model extends MY_Model
+class Main_model extends CI_Model
 {
 
     protected $cms_db;
@@ -14,8 +14,8 @@ class Main_model extends MY_Model
     function get_posts(){
 
         $this->db->select('name');
-        $query = $this->cms_db->get('ATT_LOG');
-        return $query->result_array();
+        $query = $this->cms_db->get('orang');
+        return $query->result();
 
     }
 }

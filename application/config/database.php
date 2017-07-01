@@ -70,7 +70,7 @@ $db['default']['stricton'] = FALSE;
 
 //echo 'sqlite:'.APPPATH.'database/test.db';
 
-$db['forum']['hostname'] = 'sqlite:'.APPPATH.'database/testing.db';
+$db['forum']['hostname'] = 'sqlite:'.APPPATH.'database/test.db';
 $db['forum']['username'] = '';
 $db['forum']['password'] = '';
 $db['forum']['database'] = '';
