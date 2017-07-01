@@ -15,7 +15,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/imran';
+$config['base_url']	= 'http://localhost/CI2-with-SQLite';
 
 /*
 |--------------------------------------------------------------------------

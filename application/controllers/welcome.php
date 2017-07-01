@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller
+class welcome extends CI_Controller
 {
 
     /**
@@ -22,6 +22,7 @@ class Welcome extends CI_Controller
     {
         //$data['main_content']='dashboard';
         //	$this->load->view('layouts/main',$data);
+        error_reporting(E_ALL);
         $this->load->view('welcome_message');
     }
 
